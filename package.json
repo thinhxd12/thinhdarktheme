@@ -1,0 +1,34 @@
+{
+    "name": "thinh-dark",
+    "displayName": "thinh-dark-theme",
+    "description": "theme của thịnh",
+    "version": "0.0.4",
+    "publisher": "thinhxd12",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thinhxd12"
+    },
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "img/hihi.jpg",
+    "keywords": [
+        "thinh",
+        "theme",
+        "dark theme",
+        "thinhxd12",
+        "thinh-dark-theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "thinh dark theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/thinh-dark-theme-color-theme.json"
+            }
+        ]
+    }
+}
